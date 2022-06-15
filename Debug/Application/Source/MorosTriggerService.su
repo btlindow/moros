@@ -1,0 +1,4 @@
+../Application/Source/MorosTriggerService.cpp:10:1:MorosTriggerService::MorosTriggerService(void (*)())	16	static
+../Application/Source/MorosTriggerService.cpp:15:6:void MorosTriggerService::start()	16	static
+../Application/Source/MorosTriggerService.cpp:21:6:void MorosTriggerService::stop()	16	static
+../Application/Source/MorosTriggerService.cpp:26:6:static void MorosTriggerService::_run(void*)	24	static
