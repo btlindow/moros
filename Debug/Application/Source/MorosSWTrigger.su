@@ -1,0 +1,2 @@
+../Application/Source/MorosSWTrigger.cpp:17:1:MorosSWTrigger::MorosSWTrigger(void (*)())	16	static
+../Application/Source/MorosSWTrigger.cpp:22:6:virtual void MorosSWTrigger::_task()	16	static

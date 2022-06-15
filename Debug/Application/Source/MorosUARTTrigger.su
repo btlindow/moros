@@ -1,0 +1,2 @@
+../Application/Source/MorosUARTTrigger.cpp:16:1:MorosUARTTrigger::MorosUARTTrigger(void (*)())	16	static
+../Application/Source/MorosUARTTrigger.cpp:21:6:virtual void MorosUARTTrigger::_task()	16	static

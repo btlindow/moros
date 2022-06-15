@@ -8,8 +8,12 @@
 #ifndef INCLUDE_MOROS_HPP_
 #define INCLUDE_MOROS_HPP_
 
-#include "MorosTriggerService.hpp"
+#include "MorosGPSTrigger.hpp"
+#include "MorosIMUTrigger.hpp"
 #include "MorosLIDARTrigger.hpp"
+#include "MorosSWTrigger.hpp"
+#include "MorosTIMTrigger.hpp"
+#include "MorosUARTTrigger.hpp"
 
 void MorosInit(void*);
 

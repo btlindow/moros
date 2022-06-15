@@ -1,2 +1,2 @@
-../Application/Source/Moros.cpp:13:6:void MorosInit(void*)	24	static
-../Application/Source/Moros.cpp:21:6:void on_trigger()	4	static
+../Application/Source/Moros.cpp:18:6:void MorosInit(void*)	24	static
+../Application/Source/Moros.cpp:28:13:void on_trigger()	4	static

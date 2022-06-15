@@ -1,0 +1,2 @@
+../Application/Source/MorosGPSTrigger.cpp:16:1:MorosGPSTrigger::MorosGPSTrigger(void (*)())	16	static
+../Application/Source/MorosGPSTrigger.cpp:21:6:virtual void MorosGPSTrigger::_task()	16	static

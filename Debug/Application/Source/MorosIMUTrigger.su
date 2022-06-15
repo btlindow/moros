@@ -1,0 +1,2 @@
+../Application/Source/MorosIMUTrigger.cpp:17:1:MorosIMUTrigger::MorosIMUTrigger(void (*)())	16	static
+../Application/Source/MorosIMUTrigger.cpp:22:6:virtual void MorosIMUTrigger::_task()	16	static

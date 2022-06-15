@@ -1,0 +1,2 @@
+../Application/Source/MorosTIMTrigger.cpp:16:1:MorosTIMTrigger::MorosTIMTrigger(void (*)())	16	static
+../Application/Source/MorosTIMTrigger.cpp:21:6:virtual void MorosTIMTrigger::_task()	16	static

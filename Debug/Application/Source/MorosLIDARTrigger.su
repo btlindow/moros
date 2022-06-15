@@ -1,2 +1,2 @@
-../Application/Source/MorosLIDARTrigger.cpp:17:1:MorosLIDARTrigger::MorosLIDARTrigger(void (*)())	16	static
-../Application/Source/MorosLIDARTrigger.cpp:22:6:virtual void MorosLIDARTrigger::_task()	16	static
+../Application/Source/MorosLIDARTrigger.cpp:16:1:MorosLIDARTrigger::MorosLIDARTrigger(void (*)())	16	static
+../Application/Source/MorosLIDARTrigger.cpp:21:6:virtual void MorosLIDARTrigger::_task()	16	static

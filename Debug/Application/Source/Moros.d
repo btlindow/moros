@@ -1,5 +1,6 @@
 Application/Source/Moros.o: ../Application/Source/Moros.cpp \
  ../Application/Include/Moros.hpp \
+ ../Application/Include/MorosGPSTrigger.hpp \
  ../Application/Include/MorosTriggerService.hpp \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
@@ -42,8 +43,13 @@ Application/Source/Moros.o: ../Application/Source/Moros.cpp \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- ../Application/Include/MorosLIDARTrigger.hpp
+ ../Application/Include/MorosIMUTrigger.hpp \
+ ../Application/Include/MorosLIDARTrigger.hpp \
+ ../Application/Include/MorosSWTrigger.hpp \
+ ../Application/Include/MorosTIMTrigger.hpp \
+ ../Application/Include/MorosUARTTrigger.hpp
 ../Application/Include/Moros.hpp:
+../Application/Include/MorosGPSTrigger.hpp:
 ../Application/Include/MorosTriggerService.hpp:
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
@@ -86,4 +92,8 @@ Application/Source/Moros.o: ../Application/Source/Moros.cpp \
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
+../Application/Include/MorosIMUTrigger.hpp:
 ../Application/Include/MorosLIDARTrigger.hpp:
+../Application/Include/MorosSWTrigger.hpp:
+../Application/Include/MorosTIMTrigger.hpp:
+../Application/Include/MorosUARTTrigger.hpp:

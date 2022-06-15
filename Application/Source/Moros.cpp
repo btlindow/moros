@@ -6,19 +6,26 @@
  */
 #include "Moros.hpp"
 
-MorosLIDARTrigger* test_service;
+static MorosGPSTrigger* trigger_gps;
+static MorosIMUTrigger* trigger_imu;
+static MorosLIDARTrigger* trigger_lidar;
+static MorosSWTrigger* trigger_sw;
+static MorosTIMTrigger* trigger_tim;
+static MorosUARTTrigger* trigger_uart;
 
-void on_trigger(void);
+static void on_trigger(void);
 
 void MorosInit(void*)
 {
-	test_service = new MorosLIDARTrigger(on_trigger);
-	test_service->start();
-	osDelay(10000);
-	test_service->stop();
+	trigger_gps = new MorosGPSTrigger(on_trigger);
+	trigger_imu = new MorosIMUTrigger(on_trigger);
+	trigger_lidar = new MorosLIDARTrigger(on_trigger);
+	trigger_sw = new MorosSWTrigger(on_trigger);
+	trigger_tim = new MorosTIMTrigger(on_trigger);
+	trigger_uart = new MorosUARTTrigger(on_trigger);
 }
 
-void on_trigger(void)
+static void on_trigger(void)
 {
 
 }

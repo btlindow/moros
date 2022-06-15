@@ -1,4 +1,18 @@
-Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
+Application/Source/MorosGPSTrigger.o: \
+ ../Application/Source/MorosGPSTrigger.cpp \
+ ../Application/Include/MorosGPSTrigger.hpp \
+ ../Application/Include/MorosTriggerService.hpp \
+ ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
+ ../Core/Inc/FreeRTOSConfig.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
+ ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -28,27 +42,20 @@ Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
- ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
- ../Core/Inc/FreeRTOSConfig.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
- ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
- ../Application/Include/Moros.hpp \
- ../Application/Include/MorosGPSTrigger.hpp \
- ../Application/Include/MorosTriggerService.hpp \
- ../Application/Include/MorosIMUTrigger.hpp \
- ../Application/Include/MorosLIDARTrigger.hpp \
- ../Application/Include/MorosSWTrigger.hpp \
- ../Application/Include/MorosTIMTrigger.hpp \
- ../Application/Include/MorosUARTTrigger.hpp
-../Core/Inc/main.h:
+ ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h
+../Application/Include/MorosGPSTrigger.hpp:
+../Application/Include/MorosTriggerService.hpp:
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:
+../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
+../Core/Inc/FreeRTOSConfig.h:
+../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
+../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h:
+../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h:
+../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:
+../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h:
+../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
+../Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
+../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:
@@ -79,22 +86,3 @@ Core/Src/main.o: ../Core/Src/main.cpp ../Core/Inc/main.h \
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
-../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h:
-../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
-../Core/Inc/FreeRTOSConfig.h:
-../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
-../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h:
-../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h:
-../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:
-../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h:
-../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
-../Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
-../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
-../Application/Include/Moros.hpp:
-../Application/Include/MorosGPSTrigger.hpp:
-../Application/Include/MorosTriggerService.hpp:
-../Application/Include/MorosIMUTrigger.hpp:
-../Application/Include/MorosLIDARTrigger.hpp:
-../Application/Include/MorosSWTrigger.hpp:
-../Application/Include/MorosTIMTrigger.hpp:
-../Application/Include/MorosUARTTrigger.hpp:

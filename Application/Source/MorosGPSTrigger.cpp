@@ -1,24 +1,24 @@
 /*
- * MorosLIDARTrigger.cpp
+ * MorosGPSTrigger.cpp
  *
  *  Created on: Jun 15, 2022
  *      Author: ben
  */
 
-#include "MorosLIDARTrigger.hpp"
+#include "MorosGPSTrigger.hpp"
 
 static const osThreadAttr_t thread_attr = {
-  .name = "mts_lidar",
+  .name = "mts_gps",
   .stack_size = 512,
   .priority = (osPriority_t) osPriorityNormal,
 };
 
-MorosLIDARTrigger::MorosLIDARTrigger(void(*_on_trigger)(void)) : MorosTriggerService(_on_trigger)
+MorosGPSTrigger::MorosGPSTrigger(void(*_on_trigger)(void)) : MorosTriggerService(_on_trigger)
 {
 	this->_thread_attr = &thread_attr;
 }
 
-void MorosLIDARTrigger::_task(void)
+void MorosGPSTrigger::_task(void)
 {
 
 }
